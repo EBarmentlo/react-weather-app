@@ -1,10 +1,13 @@
 import "./App.css";
+import Weather from "./Weather.js";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        Weather application
+        <h1> Weather application</h1>
+        <Weather />
+
         <footer>
           This project is created by Elisabeth Barmentlo and it is{" "}
           <a
